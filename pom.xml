@@ -100,13 +100,7 @@
 	      <name>maven-we-app-repo</name>
 	      <url>http://localhost:8046/</url>
 	    </repository>
-	    
-	   <!-- <snapshotRepository>
-	      <id>nexus</id>
-	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://localhost:8046/ui/admin/repositories/local/</url>
-	    </snapshotRepository> -->
-	    
+	      
 	</distributionManagement>
 	
 	<build>
