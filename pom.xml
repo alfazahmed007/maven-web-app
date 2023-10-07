@@ -98,7 +98,7 @@
 	    <repository>
 	      <id>jfrog</id>
 	      <name>maven-we-app-repo</name>
-	      <url>http://localhost:8046/ui/admin/repositories/local/</url>
+	      <url>http://localhost:8046/</url>
 	    </repository>
 	    
 	   <!-- <snapshotRepository>
@@ -116,7 +116,7 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
-				<version>3.3</version>
+				<version>3..8.0</version>
 				<configuration>
 					<source>${jdk.version}</source>
 					<target>${jdk.version}</target>
