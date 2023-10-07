@@ -96,10 +96,16 @@
 	<distributionManagement>
 	
 	    <repository>
-	      <id>jfrog</id>
-	      <name>maven-we-app-repo</name>
-	      <url>http://localhost:8046/</url>
+	      <id>JFrog</id>
+	      <name>Facebook Releases JFROG Repository</name>
+	      <url>http://localhost:8046/artifactory/facebook-releases/</url>
 	    </repository>
+	    
+	    <snapshotRepository>
+	      <id>JFrog</id>
+	      <name>Facebook Snapshot JFROG Repository </name>
+	      <url>http://localhost:8046/artifactory/facebook-snapshot/</url>
+	    </snapshotRepository>
 	      
 	</distributionManagement>
 	
