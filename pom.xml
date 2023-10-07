@@ -96,17 +96,17 @@
 	<distributionManagement>
 		
               <repository>
-                 <id>central</id>
+                 <id>JFrog</id>
                  <name>DESKTOP-C5Q8P9A-releases</name>
-                 <url>http://localhost:8046/artifactory/facebook-releases</url>
+                 <url>http://localhost:8046/artifactory/facebook-releases/</url>
                  </repository>
       
               <snapshotRepository>
-                 <id>snapshots</id>
+                 <id>JFrog</id>
                  <name>DESKTOP-C5Q8P9A-snapshots</name>
-                 <url>http://localhost:8046/artifactory/facebook-snapshot</url>
+                 <url>http://localhost:8046/artifactory/facebook-snapshot/</url>
                  </snapshotRepository>
-       </distributionManagement>
+        </distributionManagement>
 	    
 	
 	<build>
