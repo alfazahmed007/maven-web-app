@@ -97,13 +97,13 @@
 		
               <repository>
                  <id>JFrog</id>
-                 <name>DESKTOP-C5Q8P9A-releases</name>
+                 <name>facebook-releases</name>
                  <url>http://localhost:8046/artifactory/facebook-releases/</url>
               </repository>
       
               <snapshotRepository>
                  <id>JFrog</id>
-                 <name>DESKTOP-C5Q8P9A-snapshots</name>
+                 <name>facebook-snapshots</name>
                  <url>http://localhost:8046/artifactory/facebook-snapshot/</url>
               </snapshotRepository>
         </distributionManagement>
